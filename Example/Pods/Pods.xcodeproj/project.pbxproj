@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		027B2406E78F4E59645D7506174FA4A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0D26BCAC20D74BE79939D8B460F59CC6 /* AHFloatingTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B9871E052363907795D7D7202E9B4A5 /* AHFloatingTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117407E4585A0DCF43C7B4F01F402C2A /* Pods-AHFloatingTextView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BE96CF4D029312CD585F74AC16C7EA /* Pods-AHFloatingTextView_Tests-dummy.m */; };
+		1181158082954C696EEA5DE4D2F184EB /* Pods-AHFloatingTextView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF279139E7CDF99B15392D499EF9983 /* Pods-AHFloatingTextView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66791D497C971C775875E178397552BC /* AHFloatingTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D76CCF2B84C1FC1C23E5C9BD669329A /* AHFloatingTextView-dummy.m */; };
+		89412278303CBB92CCCC4D3D482BC686 /* AHFloatingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDF0335D26D616ACBC6BF5D8453151D /* AHFloatingTextView.swift */; };
+		95AC785B89DC13E878E1FB00FF45EB72 /* Pods-AHFloatingTextView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A081710A5A2861356F4D71661F25150B /* Pods-AHFloatingTextView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95E13EA7EC5E49EAE16EAD4ED10401C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B3C4153999535EFA853787A2A4B45195 /* Pods-AHFloatingTextView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE61E430E78B747955C4819CEEFC87E4 /* Pods-AHFloatingTextView_Example-dummy.m */; };
+		F5F95E311100F76AEB7EBFCF85469C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AF06DB96FB67C61F5C1533E448E9F66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730408BD717C453007BEF803428D4446;
+			remoteInfo = AHFloatingTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0026452BDB8031A3D3B9CE5A18311150 /* Pods-AHFloatingTextView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHFloatingTextView_Example-resources.sh"; sourceTree = "<group>"; };
+		09AC506EDD3E877D1018EC2E4C087F1A /* Pods-AHFloatingTextView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHFloatingTextView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1685FB0B1E748CEF77ECB726A066B2DF /* AHFloatingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AHFloatingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9871E052363907795D7D7202E9B4A5 /* AHFloatingTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHFloatingTextView-umbrella.h"; sourceTree = "<group>"; };
+		1CD764B315B95C31012D73E76D79DDD2 /* Pods-AHFloatingTextView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHFloatingTextView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1FF279139E7CDF99B15392D499EF9983 /* Pods-AHFloatingTextView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHFloatingTextView_Example-umbrella.h"; sourceTree = "<group>"; };
+		233F9E053AE56F27BC6FBB64C0FBCFDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D76CCF2B84C1FC1C23E5C9BD669329A /* AHFloatingTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AHFloatingTextView-dummy.m"; sourceTree = "<group>"; };
+		3B31E25AEF76620D58CE46F36E1C357E /* Pods-AHFloatingTextView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHFloatingTextView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		42217E1F52308F6019D75AFB25691287 /* Pods_AHFloatingTextView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHFloatingTextView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43C767476ED42392FCA5BE970191667D /* Pods-AHFloatingTextView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHFloatingTextView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		44BE96CF4D029312CD585F74AC16C7EA /* Pods-AHFloatingTextView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHFloatingTextView_Tests-dummy.m"; sourceTree = "<group>"; };
+		47A0729E686FCEF44620968FF038C916 /* Pods-AHFloatingTextView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AHFloatingTextView_Example.modulemap"; sourceTree = "<group>"; };
+		55F870E5AD51ACB42C0FFD63AD35B42F /* Pods_AHFloatingTextView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHFloatingTextView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FF034A3C116E0BC3307F339072883D /* Pods-AHFloatingTextView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHFloatingTextView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8887E1EA4335DAEF800FD2578D4C6504 /* Pods-AHFloatingTextView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AHFloatingTextView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88BDA3DA5CE6C562DCEDB505821F8BE2 /* AHFloatingTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AHFloatingTextView.xcconfig; sourceTree = "<group>"; };
+		9037E52712EA1069AF39AFD8F9A5C00A /* Pods-AHFloatingTextView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AHFloatingTextView_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A1986500BF70FD6181DC5B199799A31 /* Pods-AHFloatingTextView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHFloatingTextView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9EE5B029B87A61198DF2AF62EA659A3B /* Pods-AHFloatingTextView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AHFloatingTextView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A081710A5A2861356F4D71661F25150B /* Pods-AHFloatingTextView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AHFloatingTextView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A3CAF6AE27F646E69123952D27343D45 /* AHFloatingTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AHFloatingTextView-prefix.pch"; sourceTree = "<group>"; };
+		B2C066DAB7194BAFCF11996606B3018A /* Pods-AHFloatingTextView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AHFloatingTextView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B61D5BCF4D040DF1F678A27312BC20E3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAB8346F6C9F9B3ED266CB5D5E0BC80 /* AHFloatingTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AHFloatingTextView.modulemap; sourceTree = "<group>"; };
+		D2FA61EA064DFAE904E20024B4E215BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE61E430E78B747955C4819CEEFC87E4 /* Pods-AHFloatingTextView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AHFloatingTextView_Example-dummy.m"; sourceTree = "<group>"; };
+		DEF45443BB9487C4A77547657122B610 /* Pods-AHFloatingTextView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHFloatingTextView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EA663AA24BFF031639ECA23DAAA06ACC /* Pods-AHFloatingTextView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AHFloatingTextView_Tests-resources.sh"; sourceTree = "<group>"; };
+		EEDF0335D26D616ACBC6BF5D8453151D /* AHFloatingTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AHFloatingTextView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70C0CB4B296849B7125BDD8992CA8E13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027B2406E78F4E59645D7506174FA4A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8855E8A2D8797BC339342463BE9EB07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E13EA7EC5E49EAE16EAD4ED10401C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D296B9122010F7740D29D433133F070D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5F95E311100F76AEB7EBFCF85469C64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09030F780FA4F50E634683F571E7F5B8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEB823ABF72764D8F56887066CB85385 /* Pods-AHFloatingTextView_Example */,
+				DCF449570DF5764CA6E2E2B17ADA6915 /* Pods-AHFloatingTextView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		26D2CFEAD38C144B386FA83BE42A2CB6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAAB8346F6C9F9B3ED266CB5D5E0BC80 /* AHFloatingTextView.modulemap */,
+				88BDA3DA5CE6C562DCEDB505821F8BE2 /* AHFloatingTextView.xcconfig */,
+				2D76CCF2B84C1FC1C23E5C9BD669329A /* AHFloatingTextView-dummy.m */,
+				A3CAF6AE27F646E69123952D27343D45 /* AHFloatingTextView-prefix.pch */,
+				1B9871E052363907795D7D7202E9B4A5 /* AHFloatingTextView-umbrella.h */,
+				233F9E053AE56F27BC6FBB64C0FBCFDA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AHFloatingTextView";
+			sourceTree = "<group>";
+		};
+		332784C89304A9EFEBE6E2C582BDF63B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EAF6046EEAD27CC6163FF9ADD517252 /* AHFloatingTextView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4F932D8E8E91D237693109BAB5628B35 /* AHFloatingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				F198C85F9D34867EDE8E3F8E054870F7 /* Classes */,
+			);
+			path = AHFloatingTextView;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				332784C89304A9EFEBE6E2C582BDF63B /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				ACED69BD14941B1DF52505D6BF696E27 /* Products */,
+				09030F780FA4F50E634683F571E7F5B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9EAF6046EEAD27CC6163FF9ADD517252 /* AHFloatingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				4F932D8E8E91D237693109BAB5628B35 /* AHFloatingTextView */,
+				26D2CFEAD38C144B386FA83BE42A2CB6 /* Support Files */,
+			);
+			name = AHFloatingTextView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		ACED69BD14941B1DF52505D6BF696E27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1685FB0B1E748CEF77ECB726A066B2DF /* AHFloatingTextView.framework */,
+				42217E1F52308F6019D75AFB25691287 /* Pods_AHFloatingTextView_Example.framework */,
+				55F870E5AD51ACB42C0FFD63AD35B42F /* Pods_AHFloatingTextView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEB823ABF72764D8F56887066CB85385 /* Pods-AHFloatingTextView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B61D5BCF4D040DF1F678A27312BC20E3 /* Info.plist */,
+				47A0729E686FCEF44620968FF038C916 /* Pods-AHFloatingTextView_Example.modulemap */,
+				09AC506EDD3E877D1018EC2E4C087F1A /* Pods-AHFloatingTextView_Example-acknowledgements.markdown */,
+				B2C066DAB7194BAFCF11996606B3018A /* Pods-AHFloatingTextView_Example-acknowledgements.plist */,
+				DE61E430E78B747955C4819CEEFC87E4 /* Pods-AHFloatingTextView_Example-dummy.m */,
+				DEF45443BB9487C4A77547657122B610 /* Pods-AHFloatingTextView_Example-frameworks.sh */,
+				0026452BDB8031A3D3B9CE5A18311150 /* Pods-AHFloatingTextView_Example-resources.sh */,
+				1FF279139E7CDF99B15392D499EF9983 /* Pods-AHFloatingTextView_Example-umbrella.h */,
+				3B31E25AEF76620D58CE46F36E1C357E /* Pods-AHFloatingTextView_Example.debug.xcconfig */,
+				1CD764B315B95C31012D73E76D79DDD2 /* Pods-AHFloatingTextView_Example.release.xcconfig */,
+			);
+			name = "Pods-AHFloatingTextView_Example";
+			path = "Target Support Files/Pods-AHFloatingTextView_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DCF449570DF5764CA6E2E2B17ADA6915 /* Pods-AHFloatingTextView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D2FA61EA064DFAE904E20024B4E215BD /* Info.plist */,
+				9037E52712EA1069AF39AFD8F9A5C00A /* Pods-AHFloatingTextView_Tests.modulemap */,
+				8887E1EA4335DAEF800FD2578D4C6504 /* Pods-AHFloatingTextView_Tests-acknowledgements.markdown */,
+				64FF034A3C116E0BC3307F339072883D /* Pods-AHFloatingTextView_Tests-acknowledgements.plist */,
+				44BE96CF4D029312CD585F74AC16C7EA /* Pods-AHFloatingTextView_Tests-dummy.m */,
+				9A1986500BF70FD6181DC5B199799A31 /* Pods-AHFloatingTextView_Tests-frameworks.sh */,
+				EA663AA24BFF031639ECA23DAAA06ACC /* Pods-AHFloatingTextView_Tests-resources.sh */,
+				A081710A5A2861356F4D71661F25150B /* Pods-AHFloatingTextView_Tests-umbrella.h */,
+				9EE5B029B87A61198DF2AF62EA659A3B /* Pods-AHFloatingTextView_Tests.debug.xcconfig */,
+				43C767476ED42392FCA5BE970191667D /* Pods-AHFloatingTextView_Tests.release.xcconfig */,
+			);
+			name = "Pods-AHFloatingTextView_Tests";
+			path = "Target Support Files/Pods-AHFloatingTextView_Tests";
+			sourceTree = "<group>";
+		};
+		F198C85F9D34867EDE8E3F8E054870F7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF0335D26D616ACBC6BF5D8453151D /* AHFloatingTextView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A44DF326771A1C67D84553735BAEDA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D26BCAC20D74BE79939D8B460F59CC6 /* AHFloatingTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F7C33EB02094D5D6C06FD5B424B14C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AC785B89DC13E878E1FB00FF45EB72 /* Pods-AHFloatingTextView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA916ECC06726A145EBE9E850C2D5488 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1181158082954C696EEA5DE4D2F184EB /* Pods-AHFloatingTextView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18CC5480CD1E26E46ACAC91126BD621D /* Pods-AHFloatingTextView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF3D9B303E0F06A9AC7BF6DDCE49993 /* Build configuration list for PBXNativeTarget "Pods-AHFloatingTextView_Tests" */;
+			buildPhases = (
+				0F4941B7D57C30F5CBE711303AA8659A /* Sources */,
+				70C0CB4B296849B7125BDD8992CA8E13 /* Frameworks */,
+				5F7C33EB02094D5D6C06FD5B424B14C9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AHFloatingTextView_Tests";
+			productName = "Pods-AHFloatingTextView_Tests";
+			productReference = 55F870E5AD51ACB42C0FFD63AD35B42F /* Pods_AHFloatingTextView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3ABC22034F838BB895A33192EC3FCC37 /* Pods-AHFloatingTextView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 703F26CD9C64E0E0324743170AFAC03E /* Build configuration list for PBXNativeTarget "Pods-AHFloatingTextView_Example" */;
+			buildPhases = (
+				31FDC81D7B418391AE12466B599791BC /* Sources */,
+				D296B9122010F7740D29D433133F070D /* Frameworks */,
+				CA916ECC06726A145EBE9E850C2D5488 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9EA1B13159359677E6741155B6A9158 /* PBXTargetDependency */,
+			);
+			name = "Pods-AHFloatingTextView_Example";
+			productName = "Pods-AHFloatingTextView_Example";
+			productReference = 42217E1F52308F6019D75AFB25691287 /* Pods_AHFloatingTextView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		730408BD717C453007BEF803428D4446 /* AHFloatingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BFCCC935DB95611AF152919A54B68A3 /* Build configuration list for PBXNativeTarget "AHFloatingTextView" */;
+			buildPhases = (
+				4BE041D008C794EE80AB269C2013A1AB /* Sources */,
+				8855E8A2D8797BC339342463BE9EB07D /* Frameworks */,
+				3A44DF326771A1C67D84553735BAEDA9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHFloatingTextView;
+			productName = AHFloatingTextView;
+			productReference = 1685FB0B1E748CEF77ECB726A066B2DF /* AHFloatingTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ACED69BD14941B1DF52505D6BF696E27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730408BD717C453007BEF803428D4446 /* AHFloatingTextView */,
+				3ABC22034F838BB895A33192EC3FCC37 /* Pods-AHFloatingTextView_Example */,
+				18CC5480CD1E26E46ACAC91126BD621D /* Pods-AHFloatingTextView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F4941B7D57C30F5CBE711303AA8659A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				117407E4585A0DCF43C7B4F01F402C2A /* Pods-AHFloatingTextView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31FDC81D7B418391AE12466B599791BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C4153999535EFA853787A2A4B45195 /* Pods-AHFloatingTextView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE041D008C794EE80AB269C2013A1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66791D497C971C775875E178397552BC /* AHFloatingTextView-dummy.m in Sources */,
+				89412278303CBB92CCCC4D3D482BC686 /* AHFloatingTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9EA1B13159359677E6741155B6A9158 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AHFloatingTextView;
+			target = 730408BD717C453007BEF803428D4446 /* AHFloatingTextView */;
+			targetProxy = 8AF06DB96FB67C61F5C1533E448E9F66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4427F726DF789FBE4222CF2A5AAE3644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B31E25AEF76620D58CE46F36E1C357E /* Pods-AHFloatingTextView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHFloatingTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHFloatingTextView_Example/Pods-AHFloatingTextView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHFloatingTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		588725C1151141B11DFCC5F7D5C1E853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BDA3DA5CE6C562DCEDB505821F8BE2 /* AHFloatingTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHFloatingTextView/AHFloatingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHFloatingTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHFloatingTextView/AHFloatingTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AHFloatingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D3A19111FEF667C47570D7202A6A20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE5B029B87A61198DF2AF62EA659A3B /* Pods-AHFloatingTextView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHFloatingTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHFloatingTextView_Tests/Pods-AHFloatingTextView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHFloatingTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CAC3DA9B1F581BFA06DF74F286DF72B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CD764B315B95C31012D73E76D79DDD2 /* Pods-AHFloatingTextView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHFloatingTextView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHFloatingTextView_Example/Pods-AHFloatingTextView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHFloatingTextView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC857F3F861FFD5DFA551D9EAFCBD3BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BDA3DA5CE6C562DCEDB505821F8BE2 /* AHFloatingTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AHFloatingTextView/AHFloatingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AHFloatingTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AHFloatingTextView/AHFloatingTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AHFloatingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F395DD616E40847246CDDB4C26806F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43C767476ED42392FCA5BE970191667D /* Pods-AHFloatingTextView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AHFloatingTextView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AHFloatingTextView_Tests/Pods-AHFloatingTextView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AHFloatingTextView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF3D9B303E0F06A9AC7BF6DDCE49993 /* Build configuration list for PBXNativeTarget "Pods-AHFloatingTextView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D3A19111FEF667C47570D7202A6A20A /* Debug */,
+				F395DD616E40847246CDDB4C26806F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		703F26CD9C64E0E0324743170AFAC03E /* Build configuration list for PBXNativeTarget "Pods-AHFloatingTextView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4427F726DF789FBE4222CF2A5AAE3644 /* Debug */,
+				CAC3DA9B1F581BFA06DF74F286DF72B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BFCCC935DB95611AF152919A54B68A3 /* Build configuration list for PBXNativeTarget "AHFloatingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				588725C1151141B11DFCC5F7D5C1E853 /* Debug */,
+				DC857F3F861FFD5DFA551D9EAFCBD3BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
