@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AHFloatingTextView_Example' do
+  pod 'AHFloatingTextView', :path => '../'
+
+  target 'AHFloatingTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
