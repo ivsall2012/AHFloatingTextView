@@ -39,12 +39,16 @@ open class AHFloatingTextView: UIScrollView {
         super.init(frame: frame)
         self.showsHorizontalScrollIndicator = false
         self.showsVerticalScrollIndicator = false
+        self.clipsToBounds = true
+        self.isUserInteractionEnabled = false
     }
     
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.showsHorizontalScrollIndicator = false
         self.showsVerticalScrollIndicator = false
+        self.clipsToBounds = true
+        self.isUserInteractionEnabled = false
     }
     
     override open func didMoveToSuperview() {
@@ -98,6 +102,7 @@ open class AHFloatingTextView: UIScrollView {
         
         let width = labels.last!.frame.maxX
         self.contentSize = CGSize(width: width, height: 0.0)
+        self.contentOffset.x = 0.0
         isSetup = true
     }
     
