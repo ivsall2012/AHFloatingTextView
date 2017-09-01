@@ -13,7 +13,11 @@ open class AHFloatingTextView: UIScrollView {
     open var font: UIFont = UIFont.systemFont(ofSize: 17.0)
     open var color: UIColor = UIColor.white
     open var text: String = "" {
+        
         didSet {
+            if oldValue == text {
+                return
+            }
             if !text.isEmpty {
                 isSetup = false
                 self.timer?.invalidate()
