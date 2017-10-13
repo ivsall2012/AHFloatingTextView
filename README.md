@@ -1,9 +1,29 @@
 # AHFloatingTextView
+### the Example Project in this repository
+![](https://github.com/ivsall2012/AHFloatingTextView/blob/master/demo1.gif)
 
-[![CI Status](http://img.shields.io/travis/ivsall2012/AHFloatingTextView.svg?style=flat)](https://travis-ci.org/ivsall2012/AHFloatingTextView)
-[![Version](https://img.shields.io/cocoapods/v/AHFloatingTextView.svg?style=flat)](http://cocoapods.org/pods/AHFloatingTextView)
-[![License](https://img.shields.io/cocoapods/l/AHFloatingTextView.svg?style=flat)](http://cocoapods.org/pods/AHFloatingTextView)
-[![Platform](https://img.shields.io/cocoapods/p/AHFloatingTextView.svg?style=flat)](http://cocoapods.org/pods/AHFloatingTextView)
+### Real world example(it's from ![AHFMBottomPlayer](https://github.com/iOSModularization/AHFMBottomPlayer))
+![](https://github.com/ivsall2012/AHFloatingTextView/blob/master/demo2.gif)
+
+### Real world example(it's from ![AHFMAudioPlayerVC](https://github.com/iOSModularization/AHFMAudioPlayerVC))
+![](https://github.com/ivsall2012/AHFloatingTextView/blob/master/demo3.gif)
+
+## Usage
+### programatically
+```Swift
+let floatingView = AHFloatingTextView()
+floatingView.frame = CGRect(x: 50, y: 20.0, width: 300, height: 50)
+floatingView.text = "There's place in your heart and I know it is love!"
+floatingView.backgroundColor = UIColor.black
+floatingView.color = UIColor.white
+floatingView.pausingInterval = 1.0
+self.view.addSubview(floatingView)
+```
+
+### Using Storyboard or a xib
+You use it like any other UIView.
+Just to make sure you specify the view's subclass:
+![](https://github.com/ivsall2012/AHFloatingTextView/blob/master/using_custome_class.png)
 
 ## Example
 
@@ -22,7 +42,7 @@ pod "AHFloatingTextView"
 
 ## Author
 
-ivsall2012, ivsall2012@gmail.com
+Andy Tong, ivsall2012@gmail.com
 
 ## License
 
